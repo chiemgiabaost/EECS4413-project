@@ -1,4 +1,4 @@
-import {useSession} from "next-auth/react";
+import {useSession,signIn, signOut} from "next-auth/react";
 
 export default function Home() {
   const {data: session} = useSession();
@@ -13,8 +13,8 @@ export default function Home() {
     )
   }
   return (
-    <div className="text-blue-900 flex justify-between">
-      
+    <div>
+      Logged in as {session.user.email} <button onClick={() => signOut()}>Sign out</button>
     </div>
   )
 }

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^3.7.3",
     "@aws-sdk/client-s3": "^3.282.0",
     "@next-auth/mongodb-adapter": "^1.1.1",
     "autoprefixer": "^10.4.20",
@@ -16,7 +17,7 @@
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "mime-types": "^2.1.35",
-    "mongodb": "^5.1.0",
+    "mongodb": "^6.10.0",
     "mongoose": "^7.0.0",
     "multiparty": "^4.2.3",
     "next": "^15.0.3",
@@ -28,7 +29,7 @@
     "react-spinners": "^0.13.8",
     "react-sweetalert2": "^0.5.2",
     "sortablejs": "^1.15.0",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^3.4.15",
     "typeorm": "0.2.28"
   }
 }
